@@ -1,0 +1,246 @@
+{
+    "name": "Martinho Hoffman",
+    "headline": "Cientista de dados e desenvolvedor de software",
+    "email": "martinhohoff@gmail.com",
+    "phone": "(11) 94206-1231",
+    "location": "Remoto, Rio de Janeiro, RJ",
+    "languages": [
+        "Português (nativo)",
+        "Inglês (fluente)"
+    ],
+    "tags": [
+        "Ciência de Dados",
+        "Extração de Dados",
+        "Python",
+        "AWS"
+    ],
+    "summary": "Team lead, desenvolvedor e cientista de dados com mais de 6 anos de experiência. MBA pela Universidade de São Paulo (USP). Ampla experiência com aplicações web e crawlers de dados.",
+    "skills": [
+        "Python",
+        "AWS",
+        "Gestão de time",
+        "Scrapy",
+        "SQL",
+        "Django",
+        "Flask",
+        "FastAPI",
+        "Ciência de Dados",
+        "Pandas",
+        "Scikit-Learn",
+        "AWS Lambda",
+        "CloudFormation",
+        "DynamoDB",
+        "API Gateway",
+        "RDS",
+        "EC2",
+        "CloudWatch",
+        "SES",
+        "Postman",
+        "NumPy",
+        "Jupyter",
+        "Ruby on Rails"
+    ],
+    "experience": [
+        {
+            "title": "Team Lead",
+            "company": "Zyte",
+            "start": "Outubro 2023",
+            "end": "Atualmente",
+            "description": "Gestão de 4 desenvolvedores e relacionamento com stakeholders; Garantia de escalabilidade, qualidade dos dados e performance; Compliance ético e legal na coleta automatizada de dados; Comunicação técnica com stakeholders não-técnicos."
+        },
+        {
+            "title": "Desenvolvedor Python",
+            "company": "Zyte",
+            "start": "Outubro 2021",
+            "end": "Outubro 2023",
+            "description": "Desenvolvimento de crawlers com Scrapy e manutenção de pipelines de dados; Relacionamento com clientes e definição de requisitos técnicos."
+        },
+        {
+            "title": "Desenvolvedor Python",
+            "company": "Superior Industries Inc",
+            "start": "Novembro 2020",
+            "end": "Outubro 2021",
+            "description": "Back-end em Python com microserviços AWS; Desenvolvimento de APIs REST robustas e responsivas; Integração de hardware/software e manutenção de dashboards."
+        },
+        {
+            "title": "Desenvolvedor Python",
+            "company": "SUTHUB",
+            "start": "Janeiro 2019",
+            "end": "Novembro 2020",
+            "description": "Gestão de equipe e desenvolvimento de sistemas de integração via API; Manutenção de microsserviços no setor de seguros com foco em performance e segurança."
+        }
+    ],
+    "education": [
+        {
+            "school": "Universidade de São Paulo",
+            "degree": "MBA",
+            "field": "Ciência de Dados",
+            "start": "2021",
+            "end": "2021",
+            "competencies": [
+                "TensorFlow",
+                "Jupyter",
+                "Python",
+                "Ciência de Dados",
+                "Scikit-Learn"
+            ]
+        },
+        {
+            "school": "Universidade de São Paulo",
+            "degree": "Curso de Extensão",
+            "field": "Machine Learning",
+            "start": "2020",
+            "end": "2020",
+            "competencies": [
+                "Python",
+                "Ciência de Dados",
+                "Scikit-Learn"
+            ]
+        },
+        {
+            "school": "IGTI",
+            "degree": "Bootcamp",
+            "field": "Análise de Dados",
+            "start": "2020",
+            "end": "2020",
+            "competencies": [
+                "Jupyter",
+                "Python",
+                "Ciência de Dados",
+                "Scikit-Learn"
+            ]
+        },
+        {
+            "school": "Le Wagon",
+            "degree": "Bootcamp Web Full-Stack",
+            "field": null,
+            "start": "2018",
+            "end": "2018",
+            "competencies": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "JavaScript",
+                "SQL",
+                "Git",
+                "GitHub",
+                "Heroku",
+                "Ruby on Rails"
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "title": "Web Scraping com Python",
+            "issuer": "DataCamp",
+            "date": "Out. 2021",
+            "competencies": [
+                "Ciência de Dados",
+                "Web Scraping",
+                "Python"
+            ]
+        },
+        {
+            "title": "Introdução ao Pensamento Computacional e Ciência de Dados",
+            "issuer": "MITx",
+            "date": "Mai. 2021",
+            "competencies": [
+                "Python",
+                "Desenvolvimento de Software",
+                "Engenharia de Dados"
+            ]
+        },
+        {
+            "title": "Minds and Machines",
+            "issuer": "MIT",
+            "date": "Fev. 2021",
+            "competencies": [
+                "Inteligência Artificial"
+            ]
+        },
+        {
+            "title": "Machine Learning",
+            "issuer": "Escola Politécnica da USP",
+            "date": "Nov. 2020",
+            "competencies": [
+                "Ciência de Dados",
+                "Python",
+                "Machine Learning"
+            ]
+        },
+        {
+            "title": "Bootcamp de Análise de Dados",
+            "issuer": "IGTI",
+            "date": "Ago. 2020",
+            "competencies": [
+                "Ciência de Dados",
+                "Python",
+                "Análise de Dados",
+                "Apache Spark",
+                "PySpark",
+                "SQL"
+            ]
+        },
+        {
+            "title": "Manipulação de Dados com pandas",
+            "issuer": "DataCamp",
+            "date": "Mai. 2020",
+            "competencies": [
+                "Ciência de Dados",
+                "Python"
+            ]
+        },
+        {
+            "title": "Python Data Science Toolbox",
+            "issuer": "DataCamp",
+            "date": "Mai. 2020",
+            "competencies": [
+                "Ciência de Dados",
+                "Python"
+            ]
+        },
+        {
+            "title": "Python Intermediário para Ciência de Dados",
+            "issuer": "DataCamp",
+            "date": "Fev. 2020",
+            "competencies": [
+                "Ciência de Dados",
+                "Python"
+            ]
+        },
+        {
+            "title": "Introdução à Ciência de Dados em R",
+            "issuer": "DataCamp",
+            "date": "Jan. 2020",
+            "competencies": [
+                "Ciência de Dados"
+            ]
+        },
+        {
+            "title": "Análise de Redes em Python",
+            "issuer": "DataCamp",
+            "date": "Jul. 2019",
+            "competencies": [
+                "Ciência de Dados",
+                "Python"
+            ]
+        },
+        {
+            "title": "Python para Ciência de Dados",
+            "issuer": "DataCamp",
+            "date": "Jun. 2019",
+            "competencies": [
+                "Ciência de Dados",
+                "Python"
+            ]
+        },
+        {
+            "title": "Ciência da Computação e Programação com Python",
+            "issuer": "MITx",
+            "date": "Jun. 2018",
+            "competencies": [
+                "Python"
+            ]
+        }
+    ]
+}
