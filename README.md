@@ -1,14 +1,18 @@
 # 🐍 Martinho Hoffman — Portfólio de Python & Engenharia de Dados
 
 Bem-vindo! Esta é a minha coleção de projetos — desde pipelines de dados e aplicações web até scripts de automação e soluções em nuvem.  
+
 Tenho como foco construir sistemas escaláveis, extrair insights a partir de dados e entregar soluções prontas para produção.
 
 ---
 
 ## 📌 Sobre mim
-- 🎓 MBA pela Universidade de São Paulo  
-- 💻 Habilidades: Python, Engenharia de Dados, SQL, Modelagem de Dados, ETL, AWS (Lambda, CloudWatch, API Gateway, S3, EC2, DynamoDB, RDS, CloudFormation, SES), Pandas, NumPy, FastAPI, APIs REST, Testes Unitários & de Integração, CI/CD, Metodologias Ágeis  
-- ☁️ Experiência com: Arquiteturas serverless, microsserviços, serviços de dados baseados em nuvem, automação, transformação de dados, bancos de dados relacionais e NoSQL  
+- 🎓 MBA em Ciência de Dados pela Universidade de São Paulo
+  - 💻 Habilidades: Python, Engenharia de Dados, SQL, Modelagem de Dados, ETL, AWS (Lambda, CloudWatch, API Gateway, S3, EC2, DynamoDB, RDS, CloudFormation, SES), Pandas, NumPy, FastAPI, APIs REST, Testes Unitários & de Integração, CI/CD, Metodologias Ágeis
+
+- 🎓 Bacharelado em Comunicação pela Universidade Federal Fluminense
+  - Experência prévia com Publicidade, Roteiro e Comunicação Interna
+
 - 🌍 Idiomas: Inglês, Português  
 - 📫 Contato: martinhohoff@gmail.com | [LinkedIn](https://www.linkedin.com/in/martinhohoff/) | [GitHub](https://github.com/martinhohoff)
 
@@ -39,6 +43,14 @@ Tenho como foco construir sistemas escaláveis, extrair insights a partir de dad
 📊 **Código:** [Ver no GitHub](https://github.com/martinhohoff/transcrybe)
 
 ---
+
+### 3️⃣ textract
+**Objetivo:** Extrair texto simples de arquivos html
+**Tecnologia utilizada:** Javascript  
+
+📊 **Código:** [Ver no GitHub](https://github.com/martinhohoff/textracthttps://github.com/martinhohoff/textract)
+
+
 
 ## 📈 Como eu trabalho
 Gosto de:
