@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visualização de Rede do Perfil - Martinho Hoffman</title>
+  <script src="https://unpkg.com/cytoscape@3.24.2/dist/cytoscape.min.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 1rem; background: #f5f7fa;
+    }
+    #cy {
+      width: 100%;
+      height: 90vh;
+      border: 1px solid #ccc;
+      background: white;
+      font-size: 14px;
+    }
+    h2 {
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Martinho Hoffman — Visualização Interativa do Perfil</h2>
+<div id="cy">Carregando...</div>
+
+<script>
+  // Dados simplificados pra exemplo
+  const elements = [
+    // Nodo raiz (você)
+    { data: { id: 'me', label: 'Martinho Hoffman' }, classes: 'person' },
+
+    // Experiências
+    { data: { id: 'job1', label: 'Team Lead — Zyte' }, classes: 'job' },
+    { data: { id: 'job2', label: 'Desenvolvedor Python — Zyte' }, classes: 'job' },
+    { data: { id: 'job3', label: 'Desenvolvedor Python — Superior Industries' }, classes: 'job' },
+
+    // Skills
+    { data: { id: 'skill1', label: 'Python' }, classes: 'skill' },
+    { data: { id: 'skill2', label: 'AWS' }, classes: 'skill' },
+    { data: { id: 'skill3', label: 'Scrapy' }, classes: 'skill' },
+
+    // Edges (ligações)
+    { data: { id: 'e1', source: 'me', target: 'job1' } },
+    { data: { id: 'e2', source: 'me', target: 'job2' } },
+    { data: { id: 'e3', source: 'me', target: 'job3' } },
+    { data: { id: 'e4', source: 'job1', target: 'skill2' } },
+    { data: { id: 'e5', source: 'job1', target: 'skill3' } },
+    { data: { id: 'e6', source: 'job2', target: 'skill1' } },
+    { data: { id: 'e7', source: 'job2', target: 'skill2' } }
+  ];
+
+  // Inicializa o Cytoscape
+  const cy = cytoscape({
+    container: document.getElementById('cy'),
+
+    elements: elements,
+
+    style: [
+      {
+        selector: 'node',
+        style: {
+          'background-color': '#4285F4',
+          'label': 'data(label)',
+          'text-valign': 'center',
+          'color': '#fff',
+          'text-outline-width': 3,
+          'text-outline-color': '#2a56c6',
+          'font-size': '14px',
+          'width': 'label',
+          'height': 'label',
+          'padding': '10px 20px',
+          'shape': 'round-rectangle',
+          'font-weight': '600',
+          'text-wrap': 'wrap',
+          'text-max-width': 120
+        }
+      },
+      {
+        selector: 'node.person',
+        style: {
+          'background-color': '#FB8C00',
+          'text-outline-color': '#c46e00',
+          'font-size': '18px',
+          'font-weight': 'bold'
+        }
+      },
+      {
+        selector: 'node.job',
+        style: {
+          'background-color': '#0F9D58',
+          'text-outline-color': '#0b6b3a'
+        }
+      },
+      {
+        selector: 'node.skill',
+        style: {
+          'background-color': '#DB4437',
+          'text-outline-color': '#961e18',
+          'font-size': '12px',
+          'padding': '6px 10px'
+        }
+      },
+      {
+        selector: 'edge',
+        style: {
+          'width': 3,
+          'line-color': '#ccc',
+          'target-arrow-color': '#ccc',
+          'target-arrow-shape': 'triangle',
+          'curve-style': 'bezier'
+        }
+      },
+      {
+        selector: 'edge.highlighted',
+        style: {
+          'line-color': '#FFA500',
+          'target-arrow-color': '#FFA500',
+          'width': 4
+        }
+      }
+    ],
+
+    layout: {
+      name: 'breadthfirst',
+      directed: true,
+      padding: 30,
+      spacingFactor: 1.7,
+      animate: true,
+      animationDuration: 500
+    }
+  });
+
+  // Hover highlight for connected edges & nodes
+  cy.on('tap', 'node', function(evt){
+    const node = evt.target;
+    cy.elements().removeClass('highlighted');
+    node.addClass('highlighted');
+    node.connectedEdges().addClass('highlighted');
+    node.connectedEdges().targets().addClass('highlighted');
+  });
+
+  // Click on empty space clears highlights
+  cy.on('tap', function(evt){
+    if(evt.target === cy){
+      cy.elements().removeClass('highlighted');
+    }
+  });
+</script>
+
+</body>
+</html>
